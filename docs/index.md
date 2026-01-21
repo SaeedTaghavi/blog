@@ -4,6 +4,9 @@ title: Blog
 
 Welcome to my blog.
 
+Here, I write what I explain to myself while working.
+
+
 ---
 
 ### Featured post
