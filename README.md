@@ -60,7 +60,6 @@ Edit `mkdocs.yml` to change:
 - Docker
 - Docker Compose
 
----
 
 ### Start the local server
 From the root of the repository, run:
