@@ -1,8 +1,9 @@
 # Blog – How it works?
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker&logoColor=white)](https://www.docker.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success?logo=github&logoColor=white)](https://saeedtaghavi.github.io/blog/)
+[![MkDocs](https://img.shields.io/badge/MkDocs-Material-blue?logo=markdown&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
 This blog is built with **MkDocs Material** and can be run locally using Docker.
-
-
 
 
 ## Project structure
@@ -53,7 +54,24 @@ Edit `mkdocs.yml` to change:
 - Plugins
 
 
-## Stop the local server
+## Run the blog locally (Docker)
+
+### Prerequisites
+- Docker
+- Docker Compose
+
+---
+
+### Start the local server
+From the root of the repository, run:
+
+```bash
+docker compose up -d
+```
+
+The blog should now be available at `http://localhost:8000`.
+
+### Stop the local server
 
 ```bash
 docker compose down
