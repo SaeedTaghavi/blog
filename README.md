@@ -1,6 +1,6 @@
 # Blog – How it works?
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker&logoColor=white)](https://www.docker.com/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success?logo=github&logoColor=white)](https://saeedtaghavi.github.io/blog/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker&logoColor=white)](https://www.docker.com/)
 [![MkDocs](https://img.shields.io/badge/MkDocs-Material-blue?logo=markdown&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
 This blog is built with **MkDocs Material** and can be run locally using Docker.
