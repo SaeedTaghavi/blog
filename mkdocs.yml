@@ -1,0 +1,50 @@
+site_name: STV Blog
+site_url: https://saeedtaghavi.github.io/blog/
+
+nav:
+  - Blog: index.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - blog:
+      blog_dir: .
+      post_dir: blog/posts
+      post_excerpt: required
+      post_excerpt_separator: <!-- more -->
+  - search
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - footnotes
+
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
