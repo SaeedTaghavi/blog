@@ -2,7 +2,29 @@ site_name: STV Blog
 site_url: https://saeedtaghavi.github.io/blog/
 
 nav:
+  - About me: https://saeedtaghavi.github.io
   - Blog: index.md
+
+extra:
+  social:
+    - icon: material/web
+      link: https://saeedtaghavi.github.io
+      name: Personal website
+    - icon: material/email
+      link: mailto:saeed.taghavi.v@gmail.com
+      name: Email
+    - icon: material/linkedin
+      link: https://www.linkedin.com/in/saeed-taghavi-a16488130/
+      name: LinkedIn
+    - icon: simple/x
+      link: https://x.com/SaeedTaghaviV
+      name: X (Twitter)
+    - icon: material/youtube
+      link: https://www.youtube.com/@saeedtaghavi7209
+      name: YouTube
+    - icon: material/github
+      link: https://github.com/saeedtaghavi
+      name: GitHub
 
 theme:
   name: material
