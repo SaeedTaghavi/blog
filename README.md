@@ -84,4 +84,4 @@ git commit -m "Your commit message"
 git push
 ```
 
-The GitHub Actions will build the site and push it to the gh-pages branch.
+The GitHub Actions will build the site and push it to the `gh-pages` branch.
